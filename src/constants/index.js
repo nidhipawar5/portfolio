@@ -224,55 +224,47 @@ export const myProjects = [
 ];
 
 export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
+
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/nidhi-pawar5/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/thecodelink/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Asssociate Product Manager",
+    job: "Yellow AI",
+    date: "2023-Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Engage Dashboard Enhancement: Enhanced the Engage Dashboard by adding template status tracking, rejection visibility, management actions, and campaign scheduling, reduced support tickets by 28%, and cut campaign launch time from 2 days to a few hours post-rollout.",
+      "Customer Escalation Reduction: Reduced P1 escalations by 20% over 6 months through structured root-cause analysis sessions and improved alerting; correlated with a 12-point CSAT improvement across 3 key accounts.",
+      "Onboarding & Activation: Cut time-to-first-value for new enterprise clients by 3 days by introducing reusable bot templates and a standardized onboarding checklist, improving 30-day activation rates by 22%.",
+      "Cross-Functional Delivery: Ran sprint planning and backlog grooming for a 6-person squad; maintained consistent delivery with fewer than 2 scope rollbacks per quarter across 3 product areas.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Software Engineer",
+    job: "Yellow AI",
+    date: "2022-2023",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Platform Development: Engineered scalable frontend services and conversational workflow modules, improving system throughput by 45% and reducing API response times by 30%.",
+      "Feature Delivery: Designed and shipped end-to-end automation features that accelerated customer task completion by 35%, maintaining 100% on-time release velocity across sprints."
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Software Engineer Intern",
+    job: "Quinn",
+    date: "2021-2022",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Frontend Engineering: Built and refined UI features using modern JavaScript frameworks, translating product specs into clean, responsive interfaces with measurable usability improvements.",
+      "Collaboration & Quality: Reduced UI bug backlog by fixing cross-browser issues and optimizing components in close coordination with designers and backend engineers."
     ],
   },
 ];

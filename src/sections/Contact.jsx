@@ -2,6 +2,12 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
+
+const emailid = import.meta.env.VITE_EMAIL_ID
+const emailserviceid = import.meta.env.VITE_EMAIL_SERVICE_ID
+const emailtemplateid = import.meta.env.VITE_EMAIL_TEMPLATE_ID
+const emailpublicapikey = import.meta.env.VITE_EMAIL_PUBLIC_API_KEY
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -30,16 +36,16 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        emailserviceid,
+        emailtemplateid,
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Nidhi",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: emailid,
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        emailpublicapikey
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -62,10 +68,10 @@ const Contact = () => {
       {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
-          <h2 className="text-heading">Let's Talk</h2>
+          <h2 className="text-heading">Let's Talk!</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Whether you're loking to discuss ideas, improve your existing
+            platform, or bring a unique project to life, I'm here to help.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
